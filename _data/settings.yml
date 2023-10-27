@@ -11,7 +11,7 @@ menu_settings:
     - title: 'Projects'
       url: '/'
     - title: 'Resume'
-      url: '/https://drive.google.com/file/d/1wAdSWfIvPEHrecnBap3oMZL_OyBVSW-Y/view?usp=drive_link/'
+      url: 'https://drive.google.com/file/d/1wAdSWfIvPEHrecnBap3oMZL_OyBVSW-Y/view?usp=drive_link/'
     - title: 'Linkedin'
       url: 'https://www.linkedin.com/in/lala-jafarova/'
 
@@ -22,7 +22,7 @@ footer_settings:
   tagline: I am open to opportunities. 
 
 hero_settings:
-  background_image: /images/backgrounds/background-hero.svg
+  background_image: /images/backgrounds/Light top.svg
 
 post_settings:
   grid_spacing: 10
@@ -42,9 +42,9 @@ social_settings:
   linkedin_url: 'https://www.linkedin.com/in/lala-jafarova/'
 
 color_settings:
-  background_color: '#ffffff'
+  background_color: '#0F1010'
   background_alt_color: '#f4f5f6'
-  text_dark_color: '#202224'
+  text_dark_color: '#E5E7EB'
   text_medium_color: '#6C7A89'
   text_light_color: '#AEB3BB'
   accent_color: '#4C60E6'
@@ -58,10 +58,10 @@ font_settings:
   regular_weight: 400
   bold_weight: 700
   site_title:
-    small_size: 30
-    medium_size: 38
-    large_size: 40
-    weight: 700
+    small_size: 24
+    medium_size: 28
+    large_size: 36
+    weight: 500
     letter_spacing: -0.02
   menu:
     small_size: 30

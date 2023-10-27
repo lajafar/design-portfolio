@@ -24,6 +24,7 @@
     letter-spacing: $sitetitle-spacing;
     line-height: 1;
     color: $text-dark-color;
+    align-self: center;
 
     @include mq(tabletp) {
       font-size: $sitetitle-medium;
@@ -41,14 +42,13 @@
   .header__menu {
     display: flex;
     justify-content: center;
+    align-self: center;
     width: 100vw;
     height: 100vh;
-    background-color: white;
     position: fixed;
     top: 10px;
     left: 0;
     z-index: 1000;
-
     opacity: 0;
     visibility: hidden;
     @include transition(all 0.6s cubic-bezier(0.2, 0.3, 0, 1));
@@ -57,7 +57,16 @@
   .header__cta {
     justify-self: end;
     align-self: center;
-    display: none;
+    // display: none;
+    width: auto;
+    display: inline-flex;
+    padding: 15px 25px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+    border: 1px solid rgba(184, 192, 252, 0.30);
+    background: linear-gradient(180deg, rgba(76, 96, 230, 0.90) 0%, rgba(76, 96, 230, 0.60) 100%);
   }
 
   @include mq(tabletp) {
@@ -161,10 +170,25 @@
   opacity: 1;
   visibility: visible;
   top: 0px;
+  backdrop-filter: blur(10px);
+}
+
+.menu__wrap{
+  display: inline-flex;
+  padding: 20px 50px;
+  align-items: flex-start;
+  position: relative;
+  gap: 50px;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: rgba(17, 23, 31, 0.30);
+  background-color: none;
+
 }
 
 .menu__list {
   list-style: none;
+  position: sticky;
   display: flex;
   flex-direction: column;
   align-items: center;
